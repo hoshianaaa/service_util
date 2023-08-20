@@ -2,7 +2,7 @@
 Description = hello daemon
 
 [Service]
-ExecStart = /home/dev/service_utils/command_exmpales/hello.sh
+ExecStart = /home/dev/service_utils/command_examples/hello.sh
 Restart = always
 Type = simple
 

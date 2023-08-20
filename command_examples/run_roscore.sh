@@ -1,2 +1,3 @@
 source /opt/ros/noetic/setup.bash
-roscore
+sleep 10
+/opt/ros/noetic/bin/roscore

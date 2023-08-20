@@ -2,7 +2,7 @@
 Description = hello daemon
 
 [Service]
-ExecStart = /home/dev/service_utils/command_exmpales/run_roscore.sh
+ExecStart = /home/dev/service_utils/command_examples/run_roscore.sh
 Restart = always
 Type = simple
 

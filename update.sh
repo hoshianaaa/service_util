@@ -7,6 +7,7 @@ echo ""
 sudo -A chmod 0755 $path
 sudo -A chmod 0755 command_examples/*
 sudo -A cp $path /etc/systemd/system/
+sudo -A systemctl daemon-reload
 
 echo "********** resigtered check *************"
 echo ""

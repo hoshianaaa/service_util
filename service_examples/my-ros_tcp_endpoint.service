@@ -1,0 +1,18 @@
+[Unit]
+
+Description = ros_tcp_endpoint daemon
+
+
+[Service]
+
+ExecStart = /home/dev/service_utils/command_examples/run_ros_tcp_endpoint.sh
+
+Restart = always
+
+Type = simple
+
+
+[Install]
+
+WantedBy = multi-user.target
+
