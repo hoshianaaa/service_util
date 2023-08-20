@@ -1,0 +1,18 @@
+[Unit]
+
+Description = test daemon
+
+
+[Service]
+
+ExecStart = /home/dev/service_utils/command_examples/run_test.sh
+
+Restart = always
+
+Type = simple
+
+
+[Install]
+
+WantedBy = multi-user.target
+
