@@ -1,10 +1,10 @@
 [Unit]
-Description = hello daemon
+Description=ROSCORE launcher
 
 [Service]
-ExecStart = /home/dev/service_utils/command_examples/run_roscore.sh
-Restart = always
-Type = simple
+ExecStart=/usr/bin/screen -S roscore -ADm bash -l -c 'roscore'
+Restart=no
+Type=simple
 
 [Install]
-WantedBy = multi-user.target
+WantedBy=multi-user.target
